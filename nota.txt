@@ -1,0 +1,2 @@
+instalar a extenção live server no github
+clicar o o botão direoto e seecionar a opção
