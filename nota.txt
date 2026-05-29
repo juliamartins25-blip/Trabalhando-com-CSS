@@ -1,2 +1,3 @@
-instalar a extenção live server no github
-clicar o o botão direoto e selecionar a opção opem with live server
+Para executar codigo pelo online pelo GitHub:
+1 - Instalar a extenção "Live Server" no GitHub;
+2 - Clicar com o botão direito e selecionar a opção: "Open With Live Server".
