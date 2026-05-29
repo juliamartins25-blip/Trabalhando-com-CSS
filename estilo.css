@@ -10,12 +10,16 @@ h1 {
 }
 
 .subtitulo {
-    font-size: 25px;
+    font-size: 28px;
 }
 
 h2 {
     color:rgb(184, 36, 110);
     font-size: 25px;
+}
+
+h3 {
+    font-size: 21px;
 }
 
 nav {
@@ -46,6 +50,7 @@ footer {
     background-color: hotpink;
     padding: 10px;
     padding-left: 40px;
+    font-size: 18px;
 }
 
 form {
@@ -54,6 +59,7 @@ form {
     padding: 20px;
     margin-right: 220px;
     margin-left: 20px;
+    font-size: 18px;
 }
 
 .card {
