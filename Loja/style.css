@@ -64,6 +64,10 @@
     cursor: pointer;
 }
 
+.compra:hover {
+    color:black;
+}
+
 * {
     box-sizing: border-box;
 }
