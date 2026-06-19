@@ -86,3 +86,7 @@ body {
         width: 100%;
     }
 }
+
+span img {
+    width: 10%;
+}
