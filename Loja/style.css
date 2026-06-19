@@ -87,6 +87,11 @@ body {
     }
 }
 
-span img {
-    width: 10%;
+/*.carrinho{
+    
+}*/
+
+a img {
+    width:8%;
+    margin-right:5px;
 }
