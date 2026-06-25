@@ -87,11 +87,25 @@ body {
     }
 }
 
-/*.carrinho{
-    
-}*/
+.inicio {
+    border: 3px solid #cccccc;
+    margin:90px;
+    margin-left: 200px;
+    margin-right: 600px;
+    padding: 20px;
+    font-size:30px;
+}
 
-a img {
-    width:8%;
-    margin-right:5px;
+.sugestoes {
+    text-align: center;
+}
+
+.nomeLoja {
+    color:#080075;
+    font-size: 30px;
+}
+
+.nomeLoja img {
+    width: 2%;
+    padding-right: 5px;
 }
