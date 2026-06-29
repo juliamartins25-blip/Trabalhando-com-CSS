@@ -88,12 +88,19 @@ body {
 }
 
 .inicio {
+    display: flex;
+    gap: 16px;
+}
+
+.textoInicio {
     border: 3px solid #cccccc;
-    margin:90px;
-    margin-left: 200px;
-    margin-right: 600px;
+    margin: 90px;
     padding: 20px;
-    font-size:30px;
+    font-size: 20px;
+}
+
+.imgInicio {
+    width: 20%;
 }
 
 .sugestoes {
