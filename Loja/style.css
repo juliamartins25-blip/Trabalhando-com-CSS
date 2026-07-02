@@ -96,7 +96,7 @@ body {
     border: 3px solid #cccccc;
     margin: 90px;
     padding: 20px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .imgInicio {
@@ -115,4 +115,24 @@ body {
 .nomeLoja img {
     width: 2%;
     padding-right: 5px;
+}
+
+.botaoMais {
+    font-size: 30px;
+    text-align: right;
+}
+
+.textoBotao {
+    text-decoration: none;
+    color: black;
+    background-color:#ffffff;
+    padding: 20px;
+    border: solid rgb(104, 104, 104) 1px;
+}
+
+.itens_adicionados {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
 }
