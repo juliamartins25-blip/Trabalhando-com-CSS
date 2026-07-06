@@ -95,21 +95,14 @@ body {
 .textoInicio {
     border: 3px solid #cccccc;
     margin: 90px;
+    margin-left: 30px;
     padding: 20px;
     font-size: 25px;
+    border-radius:10px;
 }
 
 .imgInicio {
     width: 30%;
-}
-
-.sugestoes {
-    text-align: center;
-}
-
-.nomeLoja {
-    color:#080075;
-    font-size: 30px;
 }
 
 .nomeLoja img {
@@ -117,22 +110,42 @@ body {
     padding-right: 5px;
 }
 
-.botaoMais {
-    font-size: 30px;
-    text-align: right;
-}
-
-.textoBotao {
-    text-decoration: none;
-    color: black;
-    background-color:#ffffff;
-    padding: 20px;
-    border: solid rgb(104, 104, 104) 1px;
-}
-
 .itens_adicionados {
     background-color: #ffffff;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
+}
+
+.categoriasHome{
+    display: flex;
+    gap: 10px;
+}
+
+.cardCategoria {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    margin: 10px;
+    width: 400px;
+}
+
+.cardCategoria a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color:#333;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.cardCategoria p {
+    color:#616060;
+}
+footer {
+    background-color:#dadada;
+    padding: 10px;
 }
