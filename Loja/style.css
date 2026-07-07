@@ -195,9 +195,11 @@ body {
 .inicio {
     display: flex;
     gap: 16px;
+    align-items: flex-start;
 }
 
 .textoInicio {
+    flex: 1;
     border: 3px solid #cccccc;
     margin: 90px;
     margin-left: 30px;
@@ -207,12 +209,8 @@ body {
 }
 
 .imgInicio {
-    width: 30%;
-}
-
-.nomeLoja img {
-    width: 2%;
-    padding-right: 5px;
+    flex: 1;
+    width: 20%;
 }
 
 .categoriasHome {
