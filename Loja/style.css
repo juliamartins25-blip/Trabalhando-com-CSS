@@ -92,9 +92,22 @@ body {
 }
 
 /*<carrinho>*/
+/*.carrinho {
+    display: flex;
+    gap: 10px;
+}*/
+.carrinho {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
 .itens_adicionados {
+    flex: 2;
     background-color: #ffffff;
     margin: 30px;
+    margin-left: 0px;
+    margin-right: 20px;
     padding: 10px;
     padding-left: 50px;
     border-radius: 10px;
@@ -108,17 +121,74 @@ body {
 }
 
 .produto {
+    font-size: 20px;
     display: flex;
     gap: 40px;
     padding: 20px;
 }
 
-.qtd {
-    margin-left: 45%;
+.nome_produto {
+    width: 45%;
 }
 
-.valor {
-    margin-left: 8%;
+.qtdV {
+    padding-top: 20px;
+    display: flex;
+    gap: 40px;
+}
+
+/*<resumo>*/
+
+.resumo {
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 33%;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.tabela{
+    margin-right: 20px;
+}
+
+.linha {
+    display: flex;
+    gap: 10px;
+}
+
+.titulo_tabela{
+    width: 75%;
+}
+
+.linha_total {
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.titulo_total {
+    width: 70%;
+}
+
+.botao_comprar {
+    text-align: center;
+    margin-right: 20px;
+    background-color:#333;
+    padding: 10px;
+    border-radius: 8px;
+    color:#ffffff;
+    cursor: pointer;
+}
+
+.botao_continuar {
+    text-align: center;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    border: solid black 1px;
+    cursor: pointer;
 }
 /*</carrinho>*/
 /*<home>*/
