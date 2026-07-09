@@ -61,7 +61,10 @@
     background-color: #333;
     color: white;
     padding: 10px;
-    cursor: pointer;
+}
+
+.link_compra {
+    text-decoration: none;
 }
 
 .compra:hover {
@@ -92,10 +95,6 @@ body {
 }
 
 /*<carrinho>*/
-/*.carrinho {
-    display: flex;
-    gap: 10px;
-}*/
 .carrinho {
     display: flex;
     gap: 10px;
@@ -183,12 +182,16 @@ body {
 }
 
 .botao_continuar {
+    color:black;
     text-align: center;
     margin-right: 20px;
     padding: 10px;
     border-radius: 8px;
     border: solid black 1px;
-    cursor: pointer;
+}
+
+.link_botao {
+    text-decoration: none;
 }
 /*</carrinho>*/
 /*<home>*/
